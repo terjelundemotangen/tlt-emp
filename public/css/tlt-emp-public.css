@@ -1,0 +1,22 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.contact-phone:before {
+  font-family: "dashicons";
+  content: "\f525";
+}
+
+.contact-email:before {
+  font-family: "dashicons";
+  content: "\f466";
+}
+
+.tribe-events-meta-group {
+  padding: 0 1%;
+}
+
+.tribe-events-meta-group-contact {
+  padding-right: 0;
+}
