@@ -154,8 +154,8 @@ class Tlt_Emp {
 
 		$plugin_admin = new Tlt_Emp_Admin( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		// $this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
+		// $this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'add_meta_boxes', $plugin_admin, 'add_meta_box' );
 		$this->loader->add_action( 'save_post', $plugin_admin, 'save_meta_box' );
 
@@ -173,7 +173,7 @@ class Tlt_Emp {
 		$plugin_public = new Tlt_Emp_Public( $this->get_plugin_name(), $this->get_version() );
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		// $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 		if ( is_plugin_active( 'event-tickets-plus/event-tickets-plus.php' ) ) {
 			$this->loader->add_action( 'tribe_post_get_template_part_modules/meta/organizer', $plugin_public, 'primary_contact' );
 		} else {
