@@ -1,7 +1,7 @@
-=== Event Manager Primary Contact ===
+=== Primary Contact Event Manager ===
 Contributors: terjelundemotangen
 Donate link: https://www.paypal.me/TerjeTangen
-Tags: tribe_events, calendar
+Tags: tribe_events, calendar, events
 Requires at least: 3.0.1
 Tested up to: 5.4
 Requires PHP: 7.0

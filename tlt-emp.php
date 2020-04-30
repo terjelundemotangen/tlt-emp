@@ -13,9 +13,9 @@
  * @package           Tlt_Emp
  *
  * @wordpress-plugin
- * Plugin Name:       Event Manager Primary Contact
- * Plugin URI:        https://cordelo.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Plugin Name:       Primary Contact Event Manager
+ * Plugin URI:        https://profiles.wordpress.org/terjelundemotangen/
+ * Description:       Add name, phone and email for a primary contact to an event. Requires The Events Calendar by Modern Tribe.
  * Version:           1.0.0
  * Author:            Terje Lundemo Tangen
  * Author URI:        https://profiles.wordpress.org/terjelundemotangen/
